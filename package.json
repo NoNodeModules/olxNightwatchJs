@@ -1,0 +1,10 @@
+{
+  "name"         : "test-olx",
+  "version"      : "0.0.1",
+  "description"  : "trying out nightwatch",
+  "author"       : "Karan Vaid",
+  "dependencies" : {
+    "nightwatch" : "^0.8.6",
+    "chai"       : "*"
+  }
+}

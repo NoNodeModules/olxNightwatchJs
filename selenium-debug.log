@@ -1,0 +1,45 @@
+20:20:05.129 INFO - Launching a standalone Selenium Server
+20:20:05.164 INFO - Java: Oracle Corporation 24.79-b02
+20:20:05.164 INFO - OS: Linux 3.2.0-88-generic-pae i386
+20:20:05.177 INFO - v2.47.1, with Core v2.47.1. Built from revision 411b314
+20:20:05.242 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform LINUX
+20:20:05.242 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform LINUX
+20:20:05.243 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+20:20:05.243 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+20:20:05.310 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+20:20:05.310 INFO - Selenium Server is up and running
+20:20:05.705 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Homepage}]])
+20:20:05.721 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Homepage}]
+20:20:09.714 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, name=Homepage}]]
+20:20:09.730 INFO - Executing: [get: http://www.olx.in])
+20:20:15.046 INFO - Done: [get: http://www.olx.in]
+20:20:15.060 INFO - Executing: [find element: By.cssSelector: #cityField])
+20:20:15.530 INFO - Done: [find element: By.cssSelector: #cityField]
+20:20:15.536 INFO - Executing: [click: 0 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #cityField]])
+20:20:15.689 INFO - Done: [click: 0 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #cityField]]
+20:20:15.700 INFO - Executing: [find element: By.cssSelector: #regions-layer])
+20:20:15.825 INFO - Done: [find element: By.cssSelector: #regions-layer]
+20:20:15.833 INFO - Executing: [find child element: 1 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer], By.cssSelector: #regions-layer>div[class="popular-cities clr"]])
+20:20:15.848 INFO - Done: [find child element: 1 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer], By.cssSelector: #regions-layer>div[class="popular-cities clr"]]
+20:20:15.854 INFO - Executing: [find child element: 2 [[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer]] -> css selector: #regions-layer>div[class="popular-cities clr"]], By.cssSelector: div[class="popular-cities clr"] a[data-name="Gurgaon"]])
+20:20:15.874 INFO - Done: [find child element: 2 [[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer]] -> css selector: #regions-layer>div[class="popular-cities clr"]], By.cssSelector: div[class="popular-cities clr"] a[data-name="Gurgaon"]]
+20:20:15.881 INFO - Executing: [click: 3 [[[[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer]] -> css selector: #regions-layer>div[class="popular-cities clr"]]] -> css selector: div[class="popular-cities clr"] a[data-name="Gurgaon"]]])
+20:20:15.981 INFO - Done: [click: 3 [[[[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #regions-layer]] -> css selector: #regions-layer>div[class="popular-cities clr"]]] -> css selector: div[class="popular-cities clr"] a[data-name="Gurgaon"]]]
+20:20:15.988 INFO - Executing: [find elements: By.cssSelector: #cityField])
+20:20:16.005 INFO - Done: [find elements: By.cssSelector: #cityField]
+20:20:16.012 INFO - Executing: [get element attribute: 0 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #cityField], value])
+20:20:16.027 INFO - Done: [get element attribute: 0 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #cityField], value]
+20:20:16.039 INFO - Executing: [find element: By.cssSelector: #maincat-grid])
+20:20:16.057 INFO - Done: [find element: By.cssSelector: #maincat-grid]
+20:20:16.066 INFO - Executing: [find child element: 4 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #maincat-grid], By.cssSelector: #cat-1411])
+20:20:16.085 INFO - Done: [find child element: 4 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #maincat-grid], By.cssSelector: #cat-1411]
+20:20:16.091 INFO - Executing: [click: 5 [[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #maincat-grid]] -> css selector: #cat-1411]])
+20:20:18.057 INFO - Done: [click: 5 [[[[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #maincat-grid]] -> css selector: #cat-1411]]
+20:20:18.063 INFO - Executing: [find elements: By.cssSelector: #leftMenu>li>a])
+20:20:18.496 INFO - Done: [find elements: By.cssSelector: #leftMenu>li>a]
+20:20:18.512 INFO - Executing: [get element attribute: 6 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #leftMenu>li>a], class])
+20:20:18.524 INFO - Done: [get element attribute: 6 [[FirefoxDriver: firefox on LINUX (66030130-055f-401d-aa7e-3463f79124a3)] -> css selector: #leftMenu>li>a], class]
+20:20:18.533 INFO - Executing: [delete session: 2038080d-262c-4afc-ab1c-a5f3a690134b])
+20:20:18.863 INFO - Done: [delete session: 2038080d-262c-4afc-ab1c-a5f3a690134b]
