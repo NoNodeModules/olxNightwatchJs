@@ -21,25 +21,25 @@ module.exports = {
   elements: { cityField: '#cityField' },
 
   sections: {
-  regionsLayer: {
-    selector: '#regions-layer',
+    regionsLayer: {
+      selector: '#regions-layer',
 
-    sections: {
-      searchBox: {
-        selector: '#regionSearchBox',
-        elements: { searchField: '#filterCities' }
-      },
-      popularCities: {
-        selector: '#regions-layer>div[class="popular-cities clr"]',
-        elements: { gurgaon: 'div[class="popular-cities clr"] a[data-name="Gurgaon"]' }
+      sections: {
+        searchBox: {
+          selector: '#regionSearchBox',
+          elements: { searchField: '#filterCities' }
+        },
+        popularCities: {
+          selector: '#regions-layer>div[class="popular-cities clr"]',
+          elements: { gurgaon: 'div[class="popular-cities clr"] a[data-name="Gurgaon"]' }
+        }
       }
-    }
-  },
+    },
 
-  mainCategoryGrid: {
-    selector: '#maincat-grid',
-      elements: { mobiles: '#cat-1411' }
-  }
+    mainCategoryGrid: {
+      selector: '#maincat-grid',
+        elements: { mobiles: '#cat-1411' }
+    }
 
   }
 

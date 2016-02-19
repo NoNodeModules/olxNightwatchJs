@@ -7,7 +7,7 @@ module.exports = {
     var homepage = browser.page.homepage();
     homepage
      .navigate()
-     .assert.urlEquals('http://olx.in/');
+     .verify.urlEquals('http://www.olx.in/');
     browser.pause(5000);
     browser.end();
   },
@@ -26,9 +26,6 @@ module.exports = {
          expect(elementClass.value).to.equal('block rel parent selected ');
        });
      });
-    //mobCategory.mainCategories;
-
-    //browser.pause(5000);
     browser.end();
   },
 
